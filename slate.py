@@ -36,7 +36,7 @@ def save_as():
 
 #Buttons
 word_space = Text(root)
-word_space.grid(row = 1, columnspan = 2, padx = 10, pady = 10, )
+word_space.grid(row = 1, columnspan = 2, padx = 2, pady = 0, )
 
 inc = Label(root, text = "Welcome to Slate")
 inc.grid(row = 0, column = 0)
